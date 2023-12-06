@@ -1,0 +1,15 @@
+{
+    "extends": [
+      ":dependencyDashboard",
+      ":automergeAll",
+      "group:all",
+      "replacements:all",
+      "workarounds:all"
+    ],
+    "enabledManagers": ["jenkins", "dockerfile"],
+    "jenkins": {
+      "fileMatch": ["^plugins.txt$"]
+    },
+    "separateMajorMinor": false,
+    "separateMinorPatch": false
+  }
