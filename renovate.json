@@ -11,5 +11,9 @@
       "fileMatch": ["^plugins.txt$"]
     },
     "separateMajorMinor": false,
-    "separateMinorPatch": false
-  }
+    "separateMinorPatch": false,
+    "constraintsFiltering": "strict",
+    "constraints": {
+        "jenkins": '2.361.2'
+    }
+}
